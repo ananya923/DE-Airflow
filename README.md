@@ -8,7 +8,7 @@ This project implements an end-to-end data pipeline using Apache Airflow to inge
 Apache Airflow, Pandas, Matplotlib, PostgreSQL, Docker
 
 
-# Repository Structure -- TBC
+# Repository Structure
 ```markdown
 DE-Airflow/
 ├── .devcontainer/
