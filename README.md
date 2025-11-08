@@ -11,14 +11,16 @@ Apache Airflow, Pandas, Matplotlib, PostgreSQL, Docker
 # Repository Structure -- TBC
 ```markdown
 DE-Airflow/
-├── movie_dags_pipeline.py           # Airflow DAG
-definition
-├── images/                          # Screenshots for documentation
-│   ├── dag-execution.jpg
-│   └── data-viz.jpg
-├── docker-compose.yml               # Airflow & PostgreSQL services
-├── requirements.txt                 # Python dependencies
-└── README.md                        # Project documentation
+├── .devcontainer/
+│ ├── .Dockerfile          # Dev container configuration
+│ ├── db.env               # Database environment variables
+│ └── docker-compose.yml   # Airflow and PostgreSQL services
+├── images/                # Screenshots for documentation
+│ ├── dag-execution.jpg    # Airflow DAG execution graph
+│ └── data-viz.jpg         # Visualization output
+├── movie_dags_pipeline.py # Main Airflow DAG script
+├── README.md              # Project documentation
+└── requirements.txt       # Project dependencies
 ```
 
 # Pipeline Workflow
